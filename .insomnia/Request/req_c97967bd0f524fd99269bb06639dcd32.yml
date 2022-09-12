@@ -1,0 +1,23 @@
+_id: req_c97967bd0f524fd99269bb06639dcd32
+type: Request
+parentId: wrk_0f900f79c58141e289b6823766c51d94
+modified: 1662984867765
+created: 1662981729828
+url: "{{ _.base_url }}/api/simulators/my-enrol-simulators"
+name: My Enrol Simulators
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1662980032026
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

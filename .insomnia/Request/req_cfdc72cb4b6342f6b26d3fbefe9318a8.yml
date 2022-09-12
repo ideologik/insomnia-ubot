@@ -1,0 +1,41 @@
+_id: req_cfdc72cb4b6342f6b26d3fbefe9318a8
+type: Request
+parentId: wrk_0f900f79c58141e289b6823766c51d94
+modified: 1663009991138
+created: 1662984736705
+url: "{{ _.base_url }}/api/institution/{% response 'body',
+  'req_c97967bd0f524fd99269bb06639dcd32',
+  'b64::JC5kYXRhWzBdLmluc3RpdHV0aW9uLmlk::46b', 'never', 60 %}/course/{%
+  response 'body', 'req_c97967bd0f524fd99269bb06639dcd32',
+  'b64::JC5kYXRhWzBdLmNvdXJzZS5pZA==::46b', 'never', 60 %}/activities/{%
+  response 'body', 'req_c97967bd0f524fd99269bb06639dcd32',
+  'b64::JC5kYXRhWzBdLmFjdGl2aXR5Lmlk::46b', 'never', 60
+  %}/simulators/attempts/{% response 'body',
+  'req_b2607a91a4fb4129a923ef6a4e0f0b7a', 'b64::JC5kYXRhLmlk::46b', 'never', 60
+  %}"
+name: End Attempt Simulator
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "finish_at":"{% now 'iso-8601', '' %}",
+      "state":"finished"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e5ffd164a4e24906af90279cecfb4831
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1662980031951
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_659c796b8d79474798b0e110f0841194
+type: Request
+parentId: wrk_0f900f79c58141e289b6823766c51d94
+modified: 1662981657486
+created: 1662981597348
+url: "{{ _.base_url }}/auth/userData/get"
+name: User Data
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1662980032201
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,43 @@
+_id: req_80942456559c42658edf2cc1fc9b8b87
+type: Request
+parentId: wrk_0f900f79c58141e289b6823766c51d94
+modified: 1663010273807
+created: 1662987817463
+url: "{{ _.base_url }}/api/institution/{% response 'body',
+  'req_c97967bd0f524fd99269bb06639dcd32',
+  'b64::JC5kYXRhWzBdLmluc3RpdHV0aW9uLmlk::46b', 'never', 60 %}/course/{%
+  response 'body', 'req_c97967bd0f524fd99269bb06639dcd32',
+  'b64::JC5kYXRhWzBdLmNvdXJzZS5pZA==::46b', 'never', 60 %}/activities/{%
+  response 'body', 'req_c97967bd0f524fd99269bb06639dcd32',
+  'b64::JC5kYXRhWzBdLmFjdGl2aXR5Lmlk::46b', 'never', 60
+  %}/simulators/attempts/{% response 'body',
+  'req_b2607a91a4fb4129a923ef6a4e0f0b7a', 'b64::JC5kYXRhLmlk::46b', 'never', 60
+  %}/steps"
+name: Start Attempt Step
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"uniqueid" : "ciclo-de-ventas-v105questions-d19_attempt1",
+    	"start_at" : "{% now 'iso-8601', '' %}",
+    	"state" : "inprogress",
+      "simulator_step_id" : "ciclo-de-ventas-v105questions-d19"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e5ffd164a4e24906af90279cecfb4831
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1662980031826
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

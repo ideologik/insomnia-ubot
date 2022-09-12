@@ -1,0 +1,37 @@
+_id: req_19c9a49d0e0846178cd7442c8fc1f661
+type: Request
+parentId: wrk_0f900f79c58141e289b6823766c51d94
+modified: 1663010285634
+created: 1662985695787
+url: "{{ _.base_url }}/api/institution/{% response 'body',
+  'req_c97967bd0f524fd99269bb06639dcd32',
+  'b64::JC5kYXRhWzBdLmluc3RpdHV0aW9uLmlk::46b', 'never', 60 %}/course/{%
+  response 'body', 'req_c97967bd0f524fd99269bb06639dcd32',
+  'b64::JC5kYXRhWzBdLmNvdXJzZS5pZA==::46b', 'never', 60 %}/activities/{%
+  response 'body', 'req_c97967bd0f524fd99269bb06639dcd32',
+  'b64::JC5kYXRhWzBdLmFjdGl2aXR5Lmlk::46b', 'never', 60
+  %}/simulators/attempts/{% response 'body',
+  'req_b2607a91a4fb4129a923ef6a4e0f0b7a', 'b64::JC5kYXRhLmlk::46b', 'never', 60
+  %}/steps"
+name: Get Attempt by ID
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e5ffd164a4e24906af90279cecfb4831
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1662980031876
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

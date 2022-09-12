@@ -1,0 +1,30 @@
+_id: req_a7e5fa4cf864487c983c5bb8a4e1bbdf
+type: Request
+parentId: wrk_0f900f79c58141e289b6823766c51d94
+modified: 1662981644039
+created: 1662980032226
+url: "{{ _.base_url }}/auth/token"
+name: Get Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    { 
+     "user": "test@hmail.com", 
+     "password": "Nt4s5fF9nkBt7!"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a059df8115d64d45be4599ae7dcb073b
+authentication: {}
+metaSortKey: -1662980032226
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

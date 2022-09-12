@@ -1,0 +1,23 @@
+_id: req_b24a60625394476c8491c9b36e06d300
+type: Request
+parentId: wrk_0f900f79c58141e289b6823766c51d94
+modified: 1662982757775
+created: 1662980870581
+url: "{{ _.base_url }}/api/simulators"
+name: Get Simulators
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1662980032176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

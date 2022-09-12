@@ -1,0 +1,24 @@
+_id: req_e84f331f3dea4b1a8df71bf2742fdfc5
+type: Request
+parentId: wrk_0f900f79c58141e289b6823766c51d94
+modified: 1663010449440
+created: 1662981437729
+url: "{{ _.base_url }}/api/simulators/{% prompt 'Simulator Id', 'id', '18', '',
+  false, true %}/steps/{% prompt 'Step ID', 'stepId', '217', '', false, true %}"
+name: Responses in Step
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1662980032076
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

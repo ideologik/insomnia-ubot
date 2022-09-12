@@ -1,0 +1,17 @@
+_id: env_1b7ded9490c44d22baf535fe7d5185ea
+type: Environment
+parentId: env_c41e8495445ac1d8bcf4cfc48cb113dd14e9149c
+modified: 1662981036187
+created: 1662980079650
+name: Ubot Prod
+data:
+  base_url: http://api.staging.ubot.cl
+  token: "{% response 'body', 'req_a7e5fa4cf864487c983c5bb8a4e1bbdf',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - base_url
+    - token
+color: "#b42222"
+isPrivate: false
+metaSortKey: 1662980079650

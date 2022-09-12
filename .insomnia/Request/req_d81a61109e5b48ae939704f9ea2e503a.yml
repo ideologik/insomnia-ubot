@@ -1,0 +1,34 @@
+_id: req_d81a61109e5b48ae939704f9ea2e503a
+type: Request
+parentId: wrk_0f900f79c58141e289b6823766c51d94
+modified: 1663009389143
+created: 1662983274773
+url: "{{ _.base_url }}/api/institution/{% response 'body',
+  'req_c97967bd0f524fd99269bb06639dcd32',
+  'b64::JC5kYXRhWzBdLmluc3RpdHV0aW9uLmlk::46b', 'never', 60 %}/course/{%
+  response 'body', 'req_c97967bd0f524fd99269bb06639dcd32',
+  'b64::JC5kYXRhWzBdLmNvdXJzZS5pZA==::46b', 'never', 60 %}/activities/{%
+  response 'body', 'req_c97967bd0f524fd99269bb06639dcd32',
+  'b64::JC5kYXRhWzBdLmFjdGl2aXR5Lmlk::46b', 'never', 60 %}/simulators/attempts"
+name: Get course simualtor activity module attempts with filters
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e5ffd164a4e24906af90279cecfb4831
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1662980031926
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
